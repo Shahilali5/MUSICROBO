@@ -22,7 +22,7 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 1700))
 LOGGER_ID = int(getenv("LOGGER_ID", None))
 
 # Get this value from @FallenxBot on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", 6972508083))
+OWNER_ID = int(getenv("OWNER_ID", 8129810243))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -39,8 +39,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/PAGLA_STUPID_P")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/PAGLA_STUPID_P")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/UnknownXMusices")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+cwRCe3o1GD5hYWI1")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", True))
@@ -78,21 +78,21 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://envs.sh/A1B.jpg"
+    "START_IMG_URL", "https://te.legra.ph/file/75c3136cbe7a5af948796-bf94a3a19145d8c9cf.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://envs.sh/A1B.jpg"
+    "PING_IMG_URL", "https://te.legra.ph/file/75c3136cbe7a5af948796-bf94a3a19145d8c9cf.jpg"
 )
-PLAYLIST_IMG_URL = "https://envs.sh/A1B.jpg"
-STATS_IMG_URL = "https://envs.sh/A1B.jpg"
-TELEGRAM_AUDIO_URL = "https://envs.sh/A1B.jpg"
-TELEGRAM_VIDEO_URL = "https://envs.sh/A1B.jpg"
-STREAM_IMG_URL = "https://envs.sh/A1B.jpg"
-SOUNCLOUD_IMG_URL = "https://envs.sh/A1B.jpg"
-YOUTUBE_IMG_URL = "https://envs.sh/A1B.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://envs.sh/A1B.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://envs.sh/A1B.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://envs.sh/A1B.jpg"
+PLAYLIST_IMG_URL = "https://te.legra.ph/file/75c3136cbe7a5af948796-bf94a3a19145d8c9cf.jpg"
+STATS_IMG_URL = "https://te.legra.ph/file/75c3136cbe7a5af948796-bf94a3a19145d8c9cf.jpg"
+TELEGRAM_AUDIO_URL = "https://te.legra.ph/file/75c3136cbe7a5af948796-bf94a3a19145d8c9cf.jpg"
+TELEGRAM_VIDEO_URL = "https://te.legra.ph/file/75c3136cbe7a5af948796-bf94a3a19145d8c9cf.jpg"
+STREAM_IMG_URL = "https://te.legra.ph/file/75c3136cbe7a5af948796-bf94a3a19145d8c9cf.jpg"
+SOUNCLOUD_IMG_URL = "https://te.legra.ph/file/75c3136cbe7a5af948796-bf94a3a19145d8c9cf.jpg"
+YOUTUBE_IMG_URL = "https://te.legra.ph/file/75c3136cbe7a5af948796-bf94a3a19145d8c9cf.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://te.legra.ph/file/75c3136cbe7a5af948796-bf94a3a19145d8c9cf.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://te.legra.ph/file/75c3136cbe7a5af948796-bf94a3a19145d8c9cf.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://te.legra.ph/file/75c3136cbe7a5af948796-bf94a3a19145d8c9cf.jpg"
 
 
 def time_to_seconds(time):
